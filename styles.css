@@ -87,6 +87,7 @@ img:hover{
     list-style: none;
     line-height: 50px;
     text-decoration: none;
+    margin-left: 0px;
 }
 
 #button{
@@ -104,9 +105,7 @@ img:hover{
     align-items:center;
 }
 
-#LogoGrande{
-    width: 150px;
-}
+
 #Gran-Plaza1{
     display: flex;
     gap: 8%;
@@ -125,4 +124,9 @@ img:hover{
 }
 #img-Gran-Plaza2{
     width: 45%;
+}
+#LogoGrande{
+    width: 150px;
+    
+    padding-right: 0px;
 }
