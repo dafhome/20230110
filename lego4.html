@@ -10,22 +10,28 @@
 </head>
 
 <!-- esto es un comentario -->
-
+<main>
 <body>
     
     <!-- titulo -->
 
-    <div id="Cabecera">
-        <a href="index.html">
-           <img src="/IMG/LegoLogo.png" alt="Logo de Lego" height="80px">
-        </a>
-        <div id="Cabecera-Interna">
+    <header id="arriba">
+        <div id="logo-abajo">
+            <a href="index.html">
+                <img id="logo-principal" src="/IMG/LegoLogo.png" alt="Logo de Lego">
+            </a>
+            <br>
+        </div>
 
-            <h1>Museo de Historia Natural</h1>
+        <div id="boton-abajo">
+            <div id="Cabecera-Interna">
+                <h1>Museo de Historia Natural</h1>
         
             <h3>Descubre los huesos ocultos en la sala</h3>
+            </div>
+            <a id="button3" href="#abajo">Abajo</a>
         </div>
-    </div> 
+    </header> 
       
 
     <!-- parrafo -->
@@ -127,20 +133,23 @@
 </a>
 <br>
 <br>
-<div id="Footer-Principal">
-    
-    <h1>Acerca de Nosotros</h1>
-    <hr size="5px" color=black border-radius="5px">
-    <div id="Photo-Footer"> 
-        <ol id="contacto">
-            <li><a id="button" href="index.html">¿Donde estamos?</a></li>
-            <li><a id="button" href="index.html">¿Cual es nuestra misión?</a></li>
-            <li><a id="button" href="index.html">¿Quieres contactarnos?</a></li>
-        </ol>
-        <a href="index.html">
-            <img src="/IMG/LegoLogo.png" id="LogoGrande" alt="Logo de Lego" height="80px">
-        </a>
-    </div>
-    
+<footer id="abajo">
+    <div id="Footer-Principal">
+        <h1>Acerca de Nosotros</h1>
+        <hr size="5px" color=black>
+        <div id="Photo-Footer"> 
+            <ol id="contacto">
+                <li><a id="button" href="index.html">¿Donde estamos?</a></li>
+                <li><a id="button" href="index.html">¿Cual es nuestra misión?</a></li>
+                <li><a id="button" href="index.html">¿Quieres contactarnos?</a></li>
+                <li><a id="button" href="#arriba">Ir arriba</a></li>
 
-</div>
+            </ol>
+            <a href="index.html" >
+              <img src="/IMG/LegoLogo.png" id="LogoGrande" alt="Logo de Lego">
+            </a>
+        </div>
+    </div>
+</footer>
+</body>
+</main>

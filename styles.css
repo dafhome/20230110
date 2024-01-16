@@ -8,6 +8,9 @@ img{
     width: 100%;
     height: auto;
 }
+#logo-principal{
+    width: 130px;
+}
 
 hr{
     size: 10px;    
@@ -54,7 +57,7 @@ img:hover{
 
 }
 
-#Cabecera{
+header{
     display: flex;
     padding: 25px;
     background-color: #F2CD37;
@@ -63,6 +66,7 @@ img:hover{
     gap: 40px;
     font-size: x-large;
     align-items:center;
+    width: 100%;
 }
 
 /* #Cabecera-Interna{
@@ -80,7 +84,7 @@ img:hover{
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 10px;
-    padding-Footer: 10px;
+    padding-bottom: 10px;
     border-radius: 5px;  
     border-color: black;
     border-style: solid;
@@ -100,7 +104,36 @@ img:hover{
     padding: 15px;
     /* border-radius: 5px; */
     font-family: 'Courier New', Courier, monospace;
-    
+    border-radius: 5px;
+}
+#button:hover{
+    box-shadow: 0 0 5px;
+    color:black;
+}
+#button2{
+    /* background-color: red; */
+    color: black;
+    text-decoration: none;
+    background-color: #F2CD37;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#button3{
+    /* background-color: red; */
+    color:#F2CD37;
+    text-decoration: none;
+    background-color: #F2CD37;
+    padding: 30px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    background-color: black;
+    font-weight: bolder;
+}
+#button3:hover{
+    box-shadow: 0 0 1px;
+    color:red;
 }
 #Photo-Footer{
     display: flex;
@@ -149,4 +182,37 @@ span{
     background-color: black;
     padding: 7px;
     border-radius: 30px;
+}
+#logo-abajo{
+    list-style: none;
+    line-height: 40px;
+    text-align: center;
+    font-size: xx-large;
+}
+#abajobutton{
+    text-decoration: none;
+}
+#boton-abajo{
+    display: flex;
+    /* gap: 450px; */
+    align-items:center;
+    padding-right: 40px;
+    width: 100%;
+    justify-content:space-between;
+
+}
+#logoshistoria1{
+    font-size: xxx-large;
+    padding: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    border-radius: 5px; 
+    border-width: 10px;
+    border-style:solid;
+    border-color: #F2CD37;
+    
+}
+#imglogos
+{
+    height: 100px;
 }
