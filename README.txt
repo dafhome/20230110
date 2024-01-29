@@ -1,7 +1,7 @@
-Primera web con HTML
+Este ejercicio cubre los labs de:
 
-Crear una web con tres enlaces a tres paginas web propias y una externa (ejemplo: cantantes, y la página externa Spotify). 
-
-Estos enlaces son como un menú. Implica que aparece en todas las páginas
-
-Usar las etiquetas de títulos, enlace imagen párrafo y si quieres explorar alguna más. 
+Paginas enlazadas
+Presentación pagina cantantes (es otra cosa que no son cantantes)
+Formatear texto web cantantes
+Maquetación con listas y divs
+Crear y usar divs semanticos y anclajes
